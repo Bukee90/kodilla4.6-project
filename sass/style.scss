@@ -207,3 +207,22 @@ body {
         }
     }
 }
+
+/* Footer */
+.footer {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+    .row-footer {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        i {
+            font-size: 40px;
+            list-style-type: none;
+            color:rgb(150, 147, 5) ;
+            padding: 20px;
+        }
+    }
+
+}
