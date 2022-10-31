@@ -83,7 +83,7 @@ body {
 }
 .header .text-midle {
   position: absolute;
-  top: 30%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%);
   color: white;
