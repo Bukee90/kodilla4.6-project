@@ -28,7 +28,7 @@ body {
 .header {
     background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
-    border: 3px solid red;
+    // border: 3px solid red;
     height: 60vh;
     h1 {
         font-family: $font-text-one;
@@ -39,13 +39,13 @@ body {
     }
     .container {
         display: flex;
-        margin-top: 30px;
         align-items: baseline;
     }
     .menu {
         // border: 3px solid blue;
         display: flex;
         flex-grow: 3;
+        margin-top: 60px;
     }
     .box-first {
         // border: 3px solid rgb(255, 0, 119);
@@ -93,7 +93,6 @@ body {
     .text-midle {
         // border: 3px solid yellow;
         position: absolute;
-        
 		// margin-top: 30%;
 		// line-height:1.5em;
         top: 30%;
@@ -128,7 +127,7 @@ body {
 
 /* Services */
 .services {  
-	border: 3px solid blue;
+	// border: 3px solid blue;
     h2 {
         text-align: center;
         font-family: $font-text-one;
