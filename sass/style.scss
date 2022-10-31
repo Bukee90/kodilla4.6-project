@@ -1,0 +1,28 @@
+$font-text-one: 'Comfortaa', sans-serif;
+$font-text-two: 'Roboto', sans-serif;
+
+/* Global */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	position: relative;
+    margin: 0px;
+    background-color: antiquewhite;
+    }
+
+.container {
+	max-width: 1140px;
+	padding: 0 20px;
+	text-align: center;
+	margin: 0 auto; 
+	border: 5px solid#000000;
+}
+
+

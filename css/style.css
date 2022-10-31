@@ -1,3 +1,24 @@
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  position: relative;
+  margin: 0px;
+  background-color: antiquewhite;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  text-align: center;
+  margin: 0 auto;
+  border: 5px solid #000000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQSxXQUFBO0FBRUE7OztFQUdDLHNCQUFBO0VBQ0EsU0FBQTtFQUNHLFVBQUE7QUNISjs7QURNQTtFQUNDLGtCQUFBO0VBQ0csV0FBQTtFQUNBLDhCQUFBO0FDSEo7O0FETUE7RUFDQyxpQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSx5QkFBQTtBQ0hEIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
