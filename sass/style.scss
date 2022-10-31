@@ -13,7 +13,7 @@ $font-text-two: 'Roboto', sans-serif;
 body {
 	position: relative;
     margin: 0px;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     }
 
 .container {
@@ -127,3 +127,39 @@ body {
 }
 
 /* Services */
+.services {  
+	border: 3px solid blue;
+    h2 {
+        text-align: center;
+        font-family: $font-text-one;
+        padding: 0px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    p {
+        text-align: center;
+        font-family: $font-text-two;
+        margin-bottom: 20px;
+    }
+    .box {    
+        display: flex;
+        justify-content: space-evenly;
+        // border: 3px solid red;
+            .column {
+            margin-top: 40px;
+            // border: 3px solid rgb(17, 52, 168);
+            i {
+                font-size: 60px;
+                border: 3px solid rgb(112, 111, 20);
+                background-color: rgb(255, 255, 255);
+                color: rgb(112, 111, 20);
+                padding: 20px;
+                border-radius: 50%;
+                &:hover {
+                    color: rgb(255, 255, 255); 
+                    background-color: rgb(112, 111, 20);
+                }
+            }
+        }
+    }
+}
