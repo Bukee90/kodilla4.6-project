@@ -2,7 +2,6 @@ $font-text-one: 'Comfortaa', sans-serif;
 $font-text-two: 'Roboto', sans-serif;
 
 /* Global */
-
 *,
 *::before,
 *::after {
@@ -25,4 +24,71 @@ body {
 	border: 5px solid#000000;
 }
 
-
+/*  Header */ 
+.header {
+    background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    border: 3px solid red;
+    height: 60vh;
+    h1 {
+        font-family: $font-text-one;
+        font-size: 70px;
+        color: white;
+        flex-grow: 2.5; 
+        text-align: left;   
+    }
+    .container {
+        display: flex;
+        margin-top: 30px;
+        align-items: baseline;
+    }
+    .menu {
+        border: 3px solid blue;
+        display: flex;
+        flex-grow: 3;
+    }
+    .box-first {
+        border: 3px solid rgb(255, 0, 119);
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        list-style-type: none;
+    }
+    .menu-first {
+        display: inline-block;
+        position: relative;
+        > a {
+            font-family: $font-text-two;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        &:hover {
+            .box-second {
+                display: block;
+            }
+        }
+    }
+    .box-second {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .menu-drop {
+        color: aqua;
+        > a {
+            font-family: $font-text-two;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+  
+    
+}
